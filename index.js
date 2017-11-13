@@ -4,7 +4,7 @@ function breakOut(array, changeValue, stopValue){
 if(item!=stopValue){
   array[i]=changeValue;
 }else{break;}
-    
+
   });
   return array;
 }
@@ -16,7 +16,7 @@ function keepGoing(array, changeValue, skipValue){
 if(item!=skipValue){
   array[i]=changeValue;
 }else{continue;}
-    
+
   });
   return array;
 }
@@ -28,7 +28,7 @@ if(item!==findFn){
   continue;
 }else{
 s=1;}
-    
+
   });
-  return array;
+  return s;
 }
