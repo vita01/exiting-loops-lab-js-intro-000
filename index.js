@@ -3,8 +3,7 @@ function breakOut(array, changeValue, stopValue){
   array.forEach(function(item,i,array){
 if(item!=stopValue){
   array[i]=changeValue;
-}else{
-//  break;
+}else{ break;
 }
 
   });
